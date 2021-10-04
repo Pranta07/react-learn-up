@@ -12,7 +12,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Container>
-                <h1 className="fw-bold pt-3 text-center text-dark">
+                <h1 className="pt-3 text-center fw-bold text-dark">
                     Browse our top courses
                 </h1>
                 <p className="text-center">
@@ -20,7 +20,7 @@ const Home = () => {
                     and help.
                 </p>
                 <hr />
-                <Row sm="1" md="2" lg="4" className="pt-3 pb-3">
+                <Row xs={1} md={2} lg={4} className="pt-3 pb-3 g-3">
                     <SingleCourse course={courses[0]}></SingleCourse>
                     <SingleCourse course={courses[1]}></SingleCourse>
                     <SingleCourse course={courses[2]}></SingleCourse>
@@ -31,7 +31,7 @@ const Home = () => {
                     className="d-flex justify-content-center"
                     style={{ textDecoration: "none" }}
                 >
-                    <button className="btn btn-primary text-white mb-3">
+                    <button className="mb-3 text-white btn btn-primary">
                         All Courses
                     </button>
                 </Link>

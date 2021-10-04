@@ -7,7 +7,7 @@ const Courses = () => {
     const [courses, setCourses] = useData();
     return (
         <Container>
-            <h1 className="text-center fw-bold pt-2">
+            <h1 className="pt-2 text-center fw-bold">
                 Find The Right Online Course For You!
             </h1>
             <p className="text-center">
@@ -15,7 +15,7 @@ const Courses = () => {
                 help.
             </p>
             <hr />
-            <Row sm="1" md="2" lg="4" className="pt-3 pb-3 g-3">
+            <Row xs={1} md={2} lg={4} className="pt-3 pb-3 g-3">
                 {courses.map((course) => (
                     <SingleCourse
                         key={course.id}

@@ -1,4 +1,3 @@
-import Button from "@restart/ui/esm/Button";
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -12,7 +11,7 @@ const SingleCourse = (props) => {
     // console.log(props);
     return (
         <Col>
-            <Card style={{ width: "16rem" }} className="h-100 rounded">
+            <Card style={{ width: "16rem" }} className="rounded h-100">
                 <Card.Img variant="top" src={props?.course?.img} />
                 <Card.Body>
                     <Card.Title>{props.course?.name}</Card.Title>
@@ -22,7 +21,7 @@ const SingleCourse = (props) => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer className="d-flex justify-content-between align-items-center">
-                    <Card.Text className="fw-bold fs-4 m-0">
+                    <Card.Text className="m-0 fw-bold fs-4">
                         $ {props.course?.price}
                     </Card.Text>
                     <Link to="/details" style={{ textDecoration: "none" }}>

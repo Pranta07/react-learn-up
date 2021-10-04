@@ -5,12 +5,12 @@ import ReactPlayer from "react-player";
 const Tutorials = () => {
     return (
         <Container>
-            <h2 className="pt-3 fw-bold text-center">
+            <h2 className="pt-3 text-center fw-bold">
                 Find All Free Youtube Tutorials Here!
             </h2>
             <p className="text-center">Enjoy your learning with us!</p>
             <hr />
-            <Row className="g-3 pb-5">
+            <Row className="pb-5 g-3">
                 <Col sm={6}>
                     <h2 className="fw-bold">React Tutorial For Beginners!</h2>
                     <ReactPlayer
@@ -33,7 +33,7 @@ const Tutorials = () => {
                     />
                 </Col>
                 <Col sm={6}>
-                    <h2 className="fw-bold">5 Key Fronedn Skills</h2>
+                    <h2 className="fw-bold">5 Key Frontend Skills!</h2>
                     <ReactPlayer
                         url="https://www.youtube.com/watch?v=-_X6PhkjpzU"
                         width="200"
