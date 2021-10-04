@@ -1,10 +1,9 @@
 # Learn Up
 
-This project Live Preview [Learn Up](https://github.com/facebook/create-react-app).
+This project Live Preview [Learn Up](https://react-learn-up.netlify.app/).
 
 ## About Project
 
-In the project directory, you can run:
-
--   Find course of your choice.
--   You can watch Demo Torials from this site.
+-   Find courses of your choice.
+-   You can watch Demo Tutorials from this site.
+-   About us page is also added

@@ -14,6 +14,7 @@ const Courses = () => {
                 You don't have to struggle alone, you've got our assistance and
                 help.
             </p>
+            <hr />
             <Row sm="1" md="2" lg="4" className="pt-3 pb-3 g-3">
                 {courses.map((course) => (
                     <SingleCourse

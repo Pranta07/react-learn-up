@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../images/favicon.jpg";
 
 const Header = () => {
@@ -19,18 +19,34 @@ const Header = () => {
                     LEARN<span className="text-info"> UP</span>
                 </Navbar.Brand>
                 <Nav className="ms-auto">
-                    <Link className="nav-item" to="/home">
+                    <NavLink
+                        className="nav-item"
+                        to="/home"
+                        activeClassName="selected"
+                    >
                         Home
-                    </Link>
-                    <Link className="nav-item" to="/courses">
+                    </NavLink>
+                    <NavLink
+                        className="nav-item"
+                        to="/courses"
+                        activeClassName="selected"
+                    >
                         Courses
-                    </Link>
-                    <Link className="nav-item" to="/tutorials">
+                    </NavLink>
+                    <NavLink
+                        className="nav-item"
+                        to="/tutorials"
+                        activeClassName="selected"
+                    >
                         Tutorials
-                    </Link>
-                    <Link className="nav-item" to="/about">
+                    </NavLink>
+                    <NavLink
+                        className="nav-item"
+                        to="/about"
+                        activeClassName="selected"
+                    >
                         About Us
-                    </Link>
+                    </NavLink>
                 </Nav>
             </Container>
         </Navbar>

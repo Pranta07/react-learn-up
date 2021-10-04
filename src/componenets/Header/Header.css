@@ -3,3 +3,7 @@
     padding: 5px 20px;
     color: white;
 }
+.selected {
+    font-weight: bold;
+    color: rgb(179, 222, 240);
+}
