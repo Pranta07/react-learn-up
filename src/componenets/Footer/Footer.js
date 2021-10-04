@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
             <div className="text-center">
                 <h5>Follow us on</h5>
-                <div class>
+                <div>
                     <FontAwesomeIcon icon={faFacebook} />{" "}
                     <FontAwesomeIcon icon={faInstagram} />{" "}
                     <FontAwesomeIcon icon={faTwitter} />
