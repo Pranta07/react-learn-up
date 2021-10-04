@@ -2,12 +2,11 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import ReactPlayer from "react-player";
 
-// Render a YouTube video player
 const Tutorials = () => {
     return (
         <Container>
             <h2 className="py-3 fw-bold text-center">
-                Find All Free Tutorials Here!
+                Find All Free Youtube Tutorials Here!
             </h2>
             <Row className="g-3 pb-5">
                 <Col sm={6}>
