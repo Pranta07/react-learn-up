@@ -16,7 +16,10 @@ const Courses = () => {
             </p>
             <Row sm="1" md="2" lg="4" className="pt-3 pb-3 g-3">
                 {courses.map((course) => (
-                    <SingleCourse course={course}></SingleCourse>
+                    <SingleCourse
+                        key={course.id}
+                        course={course}
+                    ></SingleCourse>
                 ))}
             </Row>
         </Container>

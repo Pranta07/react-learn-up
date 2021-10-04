@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import useData from "../../customhooks/useData";
 import Banner from "../Banner/Banner";
@@ -30,7 +30,7 @@ const Home = () => {
                     className="d-flex justify-content-center"
                     style={{ textDecoration: "none" }}
                 >
-                    <button className="btn btn-info text-white mb-3">
+                    <button className="btn btn-primary text-white mb-3">
                         All Courses
                     </button>
                 </Link>
