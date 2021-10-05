@@ -1,4 +1,6 @@
 import React from "react";
+import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import useData from "../../customhooks/useData";
@@ -32,7 +34,8 @@ const Home = () => {
                     style={{ textDecoration: "none" }}
                 >
                     <button className="mb-3 text-white btn btn-primary">
-                        All Courses
+                        All Courses{" "}
+                        <FontAwesomeIcon icon={faArrowAltCircleRight} />
                     </button>
                 </Link>
             </Container>

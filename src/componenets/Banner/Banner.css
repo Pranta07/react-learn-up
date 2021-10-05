@@ -9,6 +9,16 @@
     overflow: hidden;
 }
 .banner-text {
-    padding-left: 80px;
+    padding-left: 5rem;
     padding-right: 0;
+}
+
+@media only screen and (max-width: 500px) {
+    .banner-text {
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+    .banner {
+        height: 350px;
+    }
 }

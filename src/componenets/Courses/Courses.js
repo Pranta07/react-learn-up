@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Spinner } from "react-bootstrap";
 import useData from "../../customhooks/useData";
 import SingleCourse from "../SingleCourse/SingleCourse";
 

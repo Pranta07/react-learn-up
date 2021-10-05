@@ -1,0 +1,4 @@
+input,
+textarea:focus {
+    outline-color: rgba(117, 234, 238, 0.897);
+}
