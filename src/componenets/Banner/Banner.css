@@ -1,8 +1,14 @@
 .banner {
+    background-image: url("../../images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     color: rgba(41, 40, 40, 0.911);
     height: 600px;
-    background-image: url("../../images/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: 1360px 600px;
+    overflow: hidden;
+}
+.banner-text {
     padding-left: 80px;
+    padding-right: 0;
 }

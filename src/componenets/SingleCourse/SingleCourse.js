@@ -11,7 +11,7 @@ const SingleCourse = (props) => {
     // console.log(props);
     return (
         <Col>
-            <Card style={{ width: "16rem" }} className="rounded h-100">
+            <Card className="rounded h-100">
                 <Card.Img variant="top" src={props?.course?.img} />
                 <Card.Body>
                     <Card.Title>{props.course?.name}</Card.Title>

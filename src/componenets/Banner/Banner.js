@@ -2,8 +2,8 @@ import React from "react";
 import "./Banner.css";
 const Banner = () => {
     return (
-        <div className="banner row d-flex align-items-center">
-            <div className="col-6">
+        <div className="w-100 banner row d-flex align-items-center m-0">
+            <div className="col-6 banner-text">
                 <h1 className="fw-bold m-0 p-0">
                     <span className="text-dark">Learn</span> and Build Skills
                     From Our <span className="text-white">Courses!</span> Online{" "}
@@ -19,7 +19,6 @@ const Banner = () => {
                     Join Us
                 </button>
             </div>
-            <div className="col-6"></div>
         </div>
     );
 };
